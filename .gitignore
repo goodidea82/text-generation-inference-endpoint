@@ -176,3 +176,9 @@ models/
 
 README.md
 Dockerfile
+tests
+examples
+snap
+utils
+docs
+deployments
