@@ -30,7 +30,8 @@ class StreamModel:
             self.device = "cuda"
         else:
             self.device = "cpu"
-        self.model = model.to(self.device)
+        # self.model = model.to(self.device)
+        self.model = model
 
     def __call__(
         self,
